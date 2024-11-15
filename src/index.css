@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "splineSansBold";
+  src: url("/fonts/SplineSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: "splineSansLight";
+  src: url("/fonts/SplineSans-Light.ttf");
+}
+
+@font-face {
+  font-family: "splineSansMedium";
+  src: url("/fonts/SplineSans-Medium.ttf");
+}
+
+@font-face {
+  font-family: "splineSansRegular";
+  src: url("/fonts/SplineSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "splineSansSemiBold";
+  src: url("/fonts/SplineSans-SemiBold.ttf");
+}
+
+.drop-shadow-lg {
+  --tw-drop-shadow: drop-shadow(0 10px 8px rgba(0, 0, 0, 0.04))
+    drop-shadow(0 4px 3px rgba(0, 0, 0, 0.4));
+}
